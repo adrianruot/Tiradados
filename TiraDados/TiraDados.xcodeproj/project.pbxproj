@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C23717E22B1A53C1007107F7 /* TiraDadosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23717E12B1A53C1007107F7 /* TiraDadosApp.swift */; };
+		C23717E42B1A53C1007107F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23717E32B1A53C1007107F7 /* ContentView.swift */; };
+		C23717E62B1A53C4007107F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C23717E52B1A53C4007107F7 /* Assets.xcassets */; };
+		C23717E92B1A53C4007107F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C23717E82B1A53C4007107F7 /* Preview Assets.xcassets */; };
+		C23717F32B1A53C4007107F7 /* TiraDadosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23717F22B1A53C4007107F7 /* TiraDadosTests.swift */; };
+		C23717FD2B1A53C4007107F7 /* TiraDadosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23717FC2B1A53C4007107F7 /* TiraDadosUITests.swift */; };
+		C23717FF2B1A53C4007107F7 /* TiraDadosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23717FE2B1A53C4007107F7 /* TiraDadosUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C23717EF2B1A53C4007107F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C23717D62B1A53C1007107F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C23717DD2B1A53C1007107F7;
+			remoteInfo = TiraDados;
+		};
+		C23717F92B1A53C4007107F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C23717D62B1A53C1007107F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C23717DD2B1A53C1007107F7;
+			remoteInfo = TiraDados;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C23717DE2B1A53C1007107F7 /* TiraDados.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TiraDados.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C23717E12B1A53C1007107F7 /* TiraDadosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiraDadosApp.swift; sourceTree = "<group>"; };
+		C23717E32B1A53C1007107F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C23717E52B1A53C4007107F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C23717E82B1A53C4007107F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C23717EE2B1A53C4007107F7 /* TiraDadosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiraDadosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C23717F22B1A53C4007107F7 /* TiraDadosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiraDadosTests.swift; sourceTree = "<group>"; };
+		C23717F82B1A53C4007107F7 /* TiraDadosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiraDadosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C23717FC2B1A53C4007107F7 /* TiraDadosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiraDadosUITests.swift; sourceTree = "<group>"; };
+		C23717FE2B1A53C4007107F7 /* TiraDadosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiraDadosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C23717DB2B1A53C1007107F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C23717EB2B1A53C4007107F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C23717F52B1A53C4007107F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C23717D52B1A53C1007107F7 = {
+			isa = PBXGroup;
+			children = (
+				C23717E02B1A53C1007107F7 /* TiraDados */,
+				C23717F12B1A53C4007107F7 /* TiraDadosTests */,
+				C23717FB2B1A53C4007107F7 /* TiraDadosUITests */,
+				C23717DF2B1A53C1007107F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C23717DF2B1A53C1007107F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C23717DE2B1A53C1007107F7 /* TiraDados.app */,
+				C23717EE2B1A53C4007107F7 /* TiraDadosTests.xctest */,
+				C23717F82B1A53C4007107F7 /* TiraDadosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C23717E02B1A53C1007107F7 /* TiraDados */ = {
+			isa = PBXGroup;
+			children = (
+				C23717E12B1A53C1007107F7 /* TiraDadosApp.swift */,
+				C23717E32B1A53C1007107F7 /* ContentView.swift */,
+				C23717E52B1A53C4007107F7 /* Assets.xcassets */,
+				C23717E72B1A53C4007107F7 /* Preview Content */,
+			);
+			path = TiraDados;
+			sourceTree = "<group>";
+		};
+		C23717E72B1A53C4007107F7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C23717E82B1A53C4007107F7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C23717F12B1A53C4007107F7 /* TiraDadosTests */ = {
+			isa = PBXGroup;
+			children = (
+				C23717F22B1A53C4007107F7 /* TiraDadosTests.swift */,
+			);
+			path = TiraDadosTests;
+			sourceTree = "<group>";
+		};
+		C23717FB2B1A53C4007107F7 /* TiraDadosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C23717FC2B1A53C4007107F7 /* TiraDadosUITests.swift */,
+				C23717FE2B1A53C4007107F7 /* TiraDadosUITestsLaunchTests.swift */,
+			);
+			path = TiraDadosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C23717DD2B1A53C1007107F7 /* TiraDados */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C23718022B1A53C4007107F7 /* Build configuration list for PBXNativeTarget "TiraDados" */;
+			buildPhases = (
+				C23717DA2B1A53C1007107F7 /* Sources */,
+				C23717DB2B1A53C1007107F7 /* Frameworks */,
+				C23717DC2B1A53C1007107F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TiraDados;
+			productName = TiraDados;
+			productReference = C23717DE2B1A53C1007107F7 /* TiraDados.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C23717ED2B1A53C4007107F7 /* TiraDadosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C23718052B1A53C4007107F7 /* Build configuration list for PBXNativeTarget "TiraDadosTests" */;
+			buildPhases = (
+				C23717EA2B1A53C4007107F7 /* Sources */,
+				C23717EB2B1A53C4007107F7 /* Frameworks */,
+				C23717EC2B1A53C4007107F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C23717F02B1A53C4007107F7 /* PBXTargetDependency */,
+			);
+			name = TiraDadosTests;
+			productName = TiraDadosTests;
+			productReference = C23717EE2B1A53C4007107F7 /* TiraDadosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C23717F72B1A53C4007107F7 /* TiraDadosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C23718082B1A53C4007107F7 /* Build configuration list for PBXNativeTarget "TiraDadosUITests" */;
+			buildPhases = (
+				C23717F42B1A53C4007107F7 /* Sources */,
+				C23717F52B1A53C4007107F7 /* Frameworks */,
+				C23717F62B1A53C4007107F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C23717FA2B1A53C4007107F7 /* PBXTargetDependency */,
+			);
+			name = TiraDadosUITests;
+			productName = TiraDadosUITests;
+			productReference = C23717F82B1A53C4007107F7 /* TiraDadosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C23717D62B1A53C1007107F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C23717DD2B1A53C1007107F7 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					C23717ED2B1A53C4007107F7 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = C23717DD2B1A53C1007107F7;
+					};
+					C23717F72B1A53C4007107F7 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = C23717DD2B1A53C1007107F7;
+					};
+				};
+			};
+			buildConfigurationList = C23717D92B1A53C1007107F7 /* Build configuration list for PBXProject "TiraDados" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C23717D52B1A53C1007107F7;
+			productRefGroup = C23717DF2B1A53C1007107F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C23717DD2B1A53C1007107F7 /* TiraDados */,
+				C23717ED2B1A53C4007107F7 /* TiraDadosTests */,
+				C23717F72B1A53C4007107F7 /* TiraDadosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C23717DC2B1A53C1007107F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C23717E92B1A53C4007107F7 /* Preview Assets.xcassets in Resources */,
+				C23717E62B1A53C4007107F7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C23717EC2B1A53C4007107F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C23717F62B1A53C4007107F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C23717DA2B1A53C1007107F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C23717E42B1A53C1007107F7 /* ContentView.swift in Sources */,
+				C23717E22B1A53C1007107F7 /* TiraDadosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C23717EA2B1A53C4007107F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C23717F32B1A53C4007107F7 /* TiraDadosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C23717F42B1A53C4007107F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C23717FF2B1A53C4007107F7 /* TiraDadosUITestsLaunchTests.swift in Sources */,
+				C23717FD2B1A53C4007107F7 /* TiraDadosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C23717F02B1A53C4007107F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C23717DD2B1A53C1007107F7 /* TiraDados */;
+			targetProxy = C23717EF2B1A53C4007107F7 /* PBXContainerItemProxy */;
+		};
+		C23717FA2B1A53C4007107F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C23717DD2B1A53C1007107F7 /* TiraDados */;
+			targetProxy = C23717F92B1A53C4007107F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C23718002B1A53C4007107F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C23718012B1A53C4007107F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C23718032B1A53C4007107F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TiraDados/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.egibide.pmdm.TiraDados;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C23718042B1A53C4007107F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TiraDados/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.egibide.pmdm.TiraDados;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C23718062B1A53C4007107F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.egibide.pmdm.TiraDadosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TiraDados.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TiraDados";
+			};
+			name = Debug;
+		};
+		C23718072B1A53C4007107F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.egibide.pmdm.TiraDadosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TiraDados.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TiraDados";
+			};
+			name = Release;
+		};
+		C23718092B1A53C4007107F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.egibide.pmdm.TiraDadosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TiraDados;
+			};
+			name = Debug;
+		};
+		C237180A2B1A53C4007107F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.egibide.pmdm.TiraDadosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TiraDados;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C23717D92B1A53C1007107F7 /* Build configuration list for PBXProject "TiraDados" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C23718002B1A53C4007107F7 /* Debug */,
+				C23718012B1A53C4007107F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C23718022B1A53C4007107F7 /* Build configuration list for PBXNativeTarget "TiraDados" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C23718032B1A53C4007107F7 /* Debug */,
+				C23718042B1A53C4007107F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C23718052B1A53C4007107F7 /* Build configuration list for PBXNativeTarget "TiraDadosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C23718062B1A53C4007107F7 /* Debug */,
+				C23718072B1A53C4007107F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C23718082B1A53C4007107F7 /* Build configuration list for PBXNativeTarget "TiraDadosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C23718092B1A53C4007107F7 /* Debug */,
+				C237180A2B1A53C4007107F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C23717D62B1A53C1007107F7 /* Project object */;
+}
